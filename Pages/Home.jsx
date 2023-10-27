@@ -1,15 +1,13 @@
-import React from "react";
-import Navbar from "../Component/Navbar";
-import Hero from "../Component/Hero";
-import Footer from "../Component/Footer";
-export default class Home extends React.Component {
-  render() {
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+//HOME PAGE
+export default function Home() {
     return (
       <div>
-        <Navbar />
-        <Hero />
-        <Footer />
+          <Navbar />
+        <h3>INI HOMEPAGE ROUTE</h3>
+          <Footer />
       </div>
     );
   }
-}
